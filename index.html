@@ -5,11 +5,13 @@
     <meta charset="utf-8">
     <title>Barbershop</title>
     <meta name="description" content="Краткое содержание страницы.">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet" >
 </head>
 
 <body>
-    <header class="main-header">
+    <header class="main-header clearfix">
         <div class="container">
             <nav class="main-navigation">
                 <ul>
@@ -21,40 +23,42 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="user-block">
+            <div class="user-block ">
                 <a class="login" href="#">ВХОД</a>
             </div>
         </div>
     </header>
     <main class="container">
         <div class="index-logo">
-            <img src="img/index-logo.png" width="400px" height="400px" alt="Bardershop &#171Бородинский&#187 ">
+            <img src="img&raquo/index-logo.png" width="400px" height="400px" alt="Bardershop &laquoБородинский&raquo ">
         </div>
         <section class="features">
             <div class="features-item">
-                <b class="features-name">Lorem.</b>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum perferendis voluptates delectus fugit vitae quaerat dolorem ipsa optio, quasi a quod quam deserunt modi iure ex voluptatem temporibus error eligendi.</p>
+                <b class="features-name">БЫСТРО.</b>
+                <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
             </div>
             <div class="features-item">
-                <b class="features-name">Libero!</b>
-                <p>Corporis quisquam sequi aspernatur distinctio eius hic iste nulla accusamus placeat molestiae, totam cupiditate, inventore? Laboriosam, iste. Quibusdam ducimus cumque amet. Ad voluptatum, impedit obcaecati ea enim culpa mollitia architecto!</p>
+                <b class="features-name">КРУТО</b>
+                <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
             </div>
             <div class="features-item">
-                <b class="features-name">Ad!</b>
-                <p>Beatae aut quod, animi aspernatur pariatur, officia maiores cupiditate accusamus amet, sint iusto porro dignissimos, repellat temporibus iste! Deleniti dolorem commodi natus ipsa corrupti consequatur beatae esse soluta temporibus quos.</p>
+                <b class="features-name">ДОРОГО</b>
+                <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
             </div>
         </section>
         <div class="index-content">
             <div class="index-content-left">
-                <h2 class="index-content-tittle">Lorem.</h2>
+                <h2 class="index-content-tittle">НОВОСТИ</h2>
                 <ul class="news-preview">
                     <li>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, inventore.
+                        <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+
+
                             <time datetime="2016-01-11">11 января</time>
                         </p>
                     </li>
                     <li>
-                        <p>Dolores pariatur consequatur provident. Atque aliquid hic non porro accusantium.
+                        <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
                             <time datetime="2017-07-09">9 июля</time>
                         </p>
                     </li>
@@ -62,7 +66,7 @@
                 <a class="btn" href="http://"> Все новости</a>
             </div>
             <div class="index-content-right">
-                <h2 class="index-content-tittle">Lorem.</h2>
+                <h2 class="index-content-tittle">ФОТОГАЛЕРЕЯ</h2>
                 <div class="gallery">
                     <figure class="gallery-content">
                         <img src="" alt="">
@@ -76,14 +80,14 @@
             <div class="indext-content-left">
                 <h2 class="index-content-tittle"></h2>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, excepturi.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, velit.</p>
+            <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br> ТЕЛЕФОН: +7 (495) 666-02-66</p>
+            <p>ВРЕМЯ РАБОТЫ: <br> ПН — ПТ: С 10:00 ДО 22:00 <br> СБ — ВС: С 10:00 ДО 19:00</p>
             <a class="btn" href="#">Как проехать</a>
             <a class="btn" href="#">Обратная связь</a>
             <div class="index-content-right">
-                <h2 class="index-content-tittle"></h2>
+                <h2 class="index-content-tittle">ЗАПИСАТЬСЯ</h2>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, corporis!</p>
+            <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
             <form class="appointment-form" action="#" method="post">
                 <input type="text" name="date" value="" placeholder="Дата">
                 <input type="text" name="time" value="" placeholder="Время">
@@ -97,21 +101,22 @@
     <footer class="main-footer">
         <div class="container">
             <div class="main-footer-contacts">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, animi?
-                    <a href="#">Как нас найти?</a>
+                <p>БАРБЕРШОП «БОРОДИНСКИЙ» <br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+
+                    <a href="#">Как нас найти?</a> <br>     ТЕЛЕФОН: +7 (495) 666-02-66
                 </p>
             </div>
             <div class="main-footer-socials">
-                <p>Lorem ipsum dolor.</p>
+                <p>ДАВАТЕ ДРУЖИТЬ!</p>
 
-                    <a class="btn-socials btn-socials-vk" href="#">Вконтакте</a>
-                    <a class="btn-socials btn-socials-tw" href="#">Твитер</a>
-                    <a class="btn-socials btn-socials-inst" href="#"> Инстаграм</a>
+                <a class="btn-socials btn-socials-vk" href="#">Вконтакте</a>
+                <a class="btn-socials btn-socials-tw" href="#">Твитер</a>
+                <a class="btn-socials btn-socials-inst" href="#"> Инстаграм</a>
 
             </div>
-            <div class="main-footer-development">
-                <p>Lorem.</p>
-                <a href="#">HTMLACADEMY.RU</a>
+            <div class="main-footer-copyright">
+                <p>РАЗРАБОТАНО:</p>
+                <a class="btn" href="#">HTMLACADEMY.RU</a>
             </div>
         </div>
     </footer>
