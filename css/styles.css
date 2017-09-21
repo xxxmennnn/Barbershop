@@ -1,47 +1,85 @@
-body{
-    font-family: "PT Sans Narrow","Arial", sans-serif;
+body {
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
     min-width: 920px;
-}
-.container{
-    width: 900px;
-    margin: 0 auto;
-    padding: 0 10;
-
-
- /*header*/
-}
-.main-header{
-    min-height: 70px;
-    background: #000000;
-}
-.main-navigation{
-    float: left;
-}
-.main-navigation li{
+    font-size: 0px;
     margin: 0;
     padding: 0;
-    display: inline-block;
-    margin: 30px 0 ;
-    margin-right: 40px;
+    background: url(/img/main-background.png);
 }
-.main-navigation a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    color:#fff;
 
-}
-.user-block{
-    float:right;
-    margin: 30px 0 ;
-}
-.user-block a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10;
+    
+    
 }
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+/*header*/
+.main-header{
+    min-height: 70px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    background: black;
+    
+  
+}
+.main-navigation{
+    float: left;
+    font-weight: 790px;
+}
+.main-navigation ul{
+    margin: 0;
+}
+.main-navigation li{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    margin: 30px 0;
+    margin-right: 40px;
+    
+}
+.main-navigation a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-family: "PT Sans Narrow";
+    
+}
+.main-navigation a:hover{
+    border-bottom: 3px solid white;
+    padding-bottom: 26px;
+}
+
+
+.main-navigation li:first-child{
+    margin-left: 20px;
+}
+.user-block{
+    float:right;
+    margin: 30px 0 ;
+   
+    
+}
+.login{
+    
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+.user-block-image{
+    vertical-align: middle;
+    margin: 0;
+    padding-right: 10px;
+    width: 18px;
+    height: 16px;
+}
+main{
+    font-size: 16px;
+    
 }
