@@ -13,7 +13,7 @@
 <body>
     <header class="main-header clearfix">
         <div class="container">
-            <nav class="main-navigation">
+            <nav class="main-navigation clearfix">
                 <ul>
                     <li><a href="#">ИНФОРМАЦИЯ</a></li>
                     <li><a href="#">НОВОСТИ</a></li>
@@ -23,82 +23,97 @@
                 </ul>
             </nav>
             <div class="user-block ">
-               
-                <a class="login" href="#"> <img class="user-block-image" src ="img/.icon-login.png" width="18" height="16">ВХОД</a>
+
+                <a class="login" href="#"> <img class="user-block-image" src="img/.icon-login.png" width="18" height="16">ВХОД</a>
             </div>
         </div>
     </header>
-    <main class="container">
-        <div class="index-logo">
-            <img src="img/index-logo.png" width="400" height="400" alt="Bardershop &laquoБородинский&raquo ">
-        </div>
-        <section class="features">
-            <div class="features-item">
-                <b class="features-name">БЫСТРО.</b>
-                <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+    <main>
+        <div class="container">
+            <div class="index-logo">
+                <img src="img/index-logo.png" width="368" height="204" alt="Bardershop &laquoБородинский&raquo ">
             </div>
-            <div class="features-item">
-                <b class="features-name">КРУТО</b>
-                <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
-            </div>
-            <div class="features-item">
-                <b class="features-name">ДОРОГО</b>
-                <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
-            </div>
-        </section>
-        <div class="index-content">
-            <div class="index-content-left">
-                <h2 class="index-content-tittle">НОВОСТИ</h2>
-                <ul class="news-preview">
-                    <li>
-                        <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+            <section class="features clearfix">
+                <div class="features-item clearfix">
+                    <b class="features-name">БЫСТРО</b>
+                    <div class="features-diamond-image">
+                        <img src="img/diamond.png" width="30" height="29">
+                    </div>
+                    <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+                </div>
+                <div class="features-item">
+                    <b class="features-name">КРУТО</b>
+                    <div class="features-diamond-image">
+                        <img src="img/diamond.png" width="30" height="29">
+                    </div>
+                    <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br> МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br> ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+                </div>
+                <div class="features-item clearfix">
+                    <b class="features-name">ДОРОГО</b>
+                    <div class="features-diamond-image">
+                        <img src="img/diamond.png" width="30" height="29">
+                    </div>
+                    <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+                </div>
+            </section>
+            <div class="index-content clearfix">
+                <div class="index-content-left">
+                    <h2 class="index-content-tittle">НОВОСТИ</h2>
+                    <ul class="news-preview">
+                        <li>
+                            <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ<br>
 
 
-                            <time datetime="2016-01-11">11 января</time>
-                        </p>
-                    </li>
-                    <li>
-                        <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
-                            <time datetime="2017-07-09">9 июля</time>
-                        </p>
-                    </li>
-                </ul>
-                <a class="btn" href="http://"> Все новости</a>
+                                <time datetime="2016-01-11">11 января</time>
+                            </p>
+                        </li>
+                        <li>
+                            <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ<br>
+                                <time datetime="2017-07-09">9 июля</time>
+                            </p>
+                        </li>
+                    </ul>
+                    <a class="btn" href="http://"> Все новости</a>
+                </div>
+                <div class="index-content-right">
+                    <h2 class="index-content-tittle">ФОТОГАЛЕРЕЯ</h2>
+                    <div class="gallery">
+                        <div class="gallery-content">
+                            <img src="img/Layer21.jpg" width="286" height="164" alt="">
+                        </div>
+                        <button class="gallery-btn-prev">Назад</button>
+                        <button class="gallery-btn-next">Вперед</button>
+                    </div>
+                </div>
             </div>
-            <div class="index-content-right">
-                <h2 class="index-content-tittle">ФОТОГАЛЕРЕЯ</h2>
-                <div class="gallery">
-                    <figure class="gallery-content">
-                        <img src="" alt="">
-                    </figure>
-                    <button class="gallery-btn-prev">Назад</button>
-                    <button class="gallery-btn-next">Вперед</button>
+            <div class="index-content clearfix">
+                <div class="index-content-left ">
+                    <h2 class="index-content-tittle"> Как нас найти?</h2>
+
+                    <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br> ТЕЛЕФОН: +7 (495) 666-02-66</p>
+                    <p>ВРЕМЯ РАБОТЫ: <br> ПН — ПТ: С 10:00 ДО 22:00 <br> СБ — ВС: С 10:00 ДО 19:00</p>
+                    <a class="btn" href="#">Как проехать</a>
+                    <a class="btn" href="#">Обратная связь</a>
+                </div>
+                <div class="index-content-right ">
+                    <h2 class="index-content-tittle">ЗАПИСАТЬСЯ</h2>
+
+                    <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+                    <form class="appointment-form" action="#" method="post">
+                        
+                            <input type="text" name="date" value="" placeholder="Дата">
+                            <input type="text" name="time" value="" placeholder="Время">
+                            <input type="text" name="name" value="" placeholder="Ваше Имя">
+                            <input type="tel" name="phone" value="" placeholder="Телефон">
+                    
+                    <button class="btn" type="submit">Отправить</button>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="index-content">
-            <div class="indext-content-left">
-                <h2 class="index-content-tittle"></h2>
-            </div>
-            <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br> ТЕЛЕФОН: +7 (495) 666-02-66</p>
-            <p>ВРЕМЯ РАБОТЫ: <br> ПН — ПТ: С 10:00 ДО 22:00 <br> СБ — ВС: С 10:00 ДО 19:00</p>
-            <a class="btn" href="#">Как проехать</a>
-            <a class="btn" href="#">Обратная связь</a>
-            <div class="index-content-right">
-                <h2 class="index-content-tittle">ЗАПИСАТЬСЯ</h2>
-            </div>
-            <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-            <form class="appointment-form" action="#" method="post">
-                <input type="text" name="date" value="" placeholder="Дата">
-                <input type="text" name="time" value="" placeholder="Время">
-                <input type="text" name="name" value="" placeholder="Ваше Имя">
-                <input type="tel" name="phone" value="" placeholder="Телефон">
-            </form>
-            <button class="btn" type="submit">Отправить</button>
-        </div>
 
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer clearfix">
         <div class="container">
             <div class="main-footer-contacts">
                 <p>БАРБЕРШОП «БОРОДИНСКИЙ» <br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
@@ -110,7 +125,7 @@
                 <p>ДАВАТЕ ДРУЖИТЬ!</p>
 
                 <a class="btn-socials btn-socials-vk" href="#">Вконтакте</a>
-                <a class="btn-socials btn-socials-tw" href="#">Твитер</a>
+                <a class="btn-socials btn-socials-f" href="#">Твитер</a>
                 <a class="btn-socials btn-socials-inst" href="#"> Инстаграм</a>
 
             </div>
